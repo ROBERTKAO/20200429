@@ -8,7 +8,7 @@
 
 REPORT zrobt004a.
 
-DATA : lt_bkpf TYPE zbkpf.
+*DATA : lt_bkpf TYPE zbkpf.
 
 
 DO 10 TIMES.
@@ -18,4 +18,4 @@ ENDDO.
 
 WRITE :/ 'ERROR'.
 
-WRITE :/ 'MASTER 2'.
+WRITE :/ 'BRANCH 1'.
